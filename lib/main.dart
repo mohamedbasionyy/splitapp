@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:splitapp/features/workouts/ui/homescreen.dart';
+import 'package:splitapp/mainlayout.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
 
-      home: const HomeScreen(),
+      home: const Mainlayout(),
     );
   }
 }
