@@ -45,7 +45,7 @@ Tech Stack
 * sqflite
 * path
 * Clean / Feature-based Architecture
-## 
+
 
 ## Folder Structure:
 lib/
@@ -76,19 +76,28 @@ lib/
         widgets/
           workout_exercise_card.dart
 
-Local Database Structure:
+## Local Database Structure:
 The app uses SQLite to store user workout data locally.
-Tables: 
-workout_days(Stores workout days such as Push Day, Pull Day, and Leg Day.)
-selected_exercises(Stores exercises selected by the user for each workout day.)
-workout_sets(Stores sets, reps, weight, and completion status for every selected exercise.)
-Database Relationship:
+## Tables: 
+``` text 
+workout_days
+```
+Stores workout days such as Push Day, Pull Day, and Leg Day.
+``` text 
+selected_exercises
+```
+Stores exercises selected by the user for each workout day.
+``` text 
+workout_sets
+```
+Stores sets, reps, weight, and completion status for every selected exercise.
+
+## Database Relationship:
 Workout Day
   └── Selected Exercises
         └── Workout Sets
 
-Screens / UI
-
+## Screens / UI
 Current implemented or planned screens:
 
 * Workout Screen
@@ -99,7 +108,7 @@ Current implemented or planned screens:
 
 ⸻
 
-What I Learned
+## What I Learned
 
 While building this project, I practiced:
 
@@ -114,14 +123,16 @@ While building this project, I practiced:
 * Handling lists of exercises and sets correctly
 * Managing independent state for each workout card
 
-Installation
+## Installation
 
 1. Clone the repository:
+```text
 git clone https://github.com/mohamedbasionyy/splitapp.git
-
+```
 2. Navigate to the project folder:
+```text
 cd splitapp
-
+```
 
 Status:
 This project is currently in development.
