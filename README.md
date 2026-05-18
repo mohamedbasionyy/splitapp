@@ -48,6 +48,7 @@ Tech Stack
 
 
 ## Folder Structure:
+```text
 lib/
   core/
     theme/
@@ -75,6 +76,7 @@ lib/
 
         widgets/
           workout_exercise_card.dart
+```
 
 ## Local Database Structure:
 The app uses SQLite to store user workout data locally.
@@ -93,9 +95,11 @@ workout_sets
 Stores sets, reps, weight, and completion status for every selected exercise.
 
 ## Database Relationship:
+```text
 Workout Day
   └── Selected Exercises
         └── Workout Sets
+```
 
 ## Screens / UI
 Current implemented or planned screens:
@@ -132,6 +136,10 @@ git clone https://github.com/mohamedbasionyy/splitapp.git
 2. Navigate to the project folder:
 ```text
 cd splitapp
+```
+3. Install dependencies:
+```text
+flutter pub get
 ```
 
 Status:
