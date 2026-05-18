@@ -35,8 +35,8 @@ Start Workout
 Track Sets / Reps / Weight
         ↓
 Save Workout Data Locally
+```
 
-`text`
 Tech Stack
 
 * Flutter
