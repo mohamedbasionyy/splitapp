@@ -43,7 +43,9 @@ Tech Stack
 * sqflite
 * path
 * Clean / Feature-based Architecture
+## 
 
+## Folder Structure:
 lib/
   core/
     theme/
